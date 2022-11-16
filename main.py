@@ -9,3 +9,8 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"message":"Hello TutLinks.com"}
+
+@app.post("/tags")
+async def predict(doc: str):
+    
+    return {"Tags": doc }
