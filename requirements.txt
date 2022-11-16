@@ -1,3 +1,11 @@
-fastapi
-gunicorn
+anyio==3.5.0
+cffi==1.15.0
+fastapi==0.73.0
+idna==3.3
+pycparser==2.21
+pydantic==1.9.0
+sniffio==1.2.0
+starlette==0.17.1
+typing-extensions==4.0.1
+
 
