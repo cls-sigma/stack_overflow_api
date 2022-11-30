@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 app = FastAPI()
-
+import pickle
 
 
 with open("classes.txt", "r") as h:
@@ -12,7 +12,7 @@ model=pickle.load(open('stack_model.pkl', 'rb'))
 def out(sentence):
     predict=model.predict([sentence])
     output=[]
-    for i, j in zip(predict[0], classes):
+    for i, j in zip(predict[0], clas):
       if i==1:
         output.append(j)
       else:

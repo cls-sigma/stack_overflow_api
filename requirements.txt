@@ -1,3 +1,4 @@
+scikit-learn
 anyio==3.5.0
 cffi==1.15.0
 fastapi==0.87.0
