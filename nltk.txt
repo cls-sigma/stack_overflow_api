@@ -1,0 +1,4 @@
+stopwords
+words
+wordnet
+omw-1.4
